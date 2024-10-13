@@ -20,7 +20,7 @@ function ContactMe() {
       className="h-screen flex flex-col justify-center items-center p-10 md:p-52 gap-10 bg-gray"
     >
       <h1 className="text-4xl underline font-bold">Contact Me</h1>
-      <div className="w-full p-4">
+      <div className="w-[50%]  p-4">
         <form
           action="mailto:dongluudev@gmail.com"
           onSubmit={handleSubmit}

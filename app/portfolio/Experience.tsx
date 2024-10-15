@@ -20,7 +20,7 @@ function Experience() {
   return (
     <div
       id="experience"
-      className="h-auto overflow-hidden flex flex-col justify-center items-center p-4 md:p-52 gap-10 bg-gray"
+      className="snap-center h-auto overflow-hidden flex flex-col justify-center items-center p-4 md:p-52 gap-10 bg-gray"
     >
       <h1 className="text-4xl underline font-bold">Experience</h1>
       <span

@@ -4,7 +4,7 @@ function AboutMe() {
   return (
     <div
       id="about"
-      className="h-screen flex flex-col justify-center items-center p-10 md:p-52 gap-10 bg-white"
+      className="snap-center h-screen flex flex-col justify-center items-center p-10 md:p-52 gap-10 bg-white "
     >
       <h1 className="text-4xl underline font-bold">About Me</h1>
       <span>

@@ -3,7 +3,7 @@ import styles from "@/app/ui/footer.module.css";
 
 function Footer() {
   return (
-    <div className="flex flex-col h-auto justify-center items-center bg-gray">
+    <div className="snap-center flex flex-col h-auto justify-center items-center bg-gray">
       <div className="flex w-full h-20  p-4 justify-center gap-10 ">
         <a className="hover:cursor-pointer" href="https://github.com/Dluu520">
           Github

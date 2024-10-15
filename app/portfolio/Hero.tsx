@@ -4,7 +4,7 @@ import styles from "@/app/ui/hero.module.css";
 
 function Hero() {
   return (
-    <div className={`${styles.hero}`}>
+    <div className={` snap-center ${styles.hero}`}>
       <div className=" bg-cyan-900/80 absolute h-full w-full" id="home" />
       {/* <Image
           src={

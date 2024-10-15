@@ -30,10 +30,10 @@ function Skills() {
   return (
     <div
       id="skills"
-      className="h-screen flex flex-col justify-center items-center p-10 md:p-32 gap-10 bg-white "
+      className="snap-center h-screen flex flex-col justify-center items-center p-10 md:p-32 gap-10 bg-white "
     >
       <h1 className="text-4xl underline font-bold">Skills</h1>
-      <div className="justify-center overflow-hidden flex flex-wrap gap-6 px-[30%] text-white">
+      <div className="justify-center overflow-hidden flex flex-wrap gap-6 w-full md:w-[80%] lg:w-[50%] text-white">
         {skills.map((skill, index) => {
           return (
             <ul

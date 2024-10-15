@@ -13,7 +13,7 @@ import Hero from "./portfolio/Hero";
 
 export default function Page() {
   return (
-    <main className="flex flex-col bg-white">
+    <main className="flex flex-col bg-white ">
       <Hero />
       <AboutMe />
       <Experience />
